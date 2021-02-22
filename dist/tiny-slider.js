@@ -1135,6 +1135,7 @@ var tns = function(options) {
     if (autoWidth) { newContainerClasses += ' tns-autowidth'; }
     newContainerClasses += ' tns-' + options.axis;
     if (center) { newContainerClasses += ' tns-center'; }
+    newContainerClasses += ' tns-slider-items-' + slideCount;
     container.className += newContainerClasses;
 
     // add constrain layer for carousel
